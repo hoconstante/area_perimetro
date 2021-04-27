@@ -12,7 +12,7 @@ namespace area_perimetro
         protected double _perimetro;
         public List<Figura> Lista = new();
 
-        public void CriarLista()
+        public void Criar()
         {
             Circulo circulo;
             Retangulo retangulo;
@@ -54,7 +54,7 @@ namespace area_perimetro
             }
             while (quero == 1);
         }
-        public void ListarLista()
+        public void Listar()
         {
             Console.Clear();
             Console.WriteLine("Eis sua lista de figuras:");

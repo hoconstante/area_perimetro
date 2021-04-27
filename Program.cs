@@ -7,8 +7,8 @@ namespace area_perimetro
         static void Main(string[] args)
          {
             Figura fig = new();
-            fig.CriarLista();
-            fig.ListarLista();
+            fig.Criar();
+            fig.Listar();
             Figura.Tchau();            
          }     
     }
