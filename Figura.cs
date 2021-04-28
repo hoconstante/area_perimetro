@@ -28,7 +28,7 @@ namespace area_perimetro
                 {
                     Console.WriteLine("Digite o valor do raio do círculo");
                     double raio = Convert.ToDouble(Console.ReadLine());
-                    circulo = new Circulo(raio);
+                    circulo = new(raio);
                     Lista.Add(circulo);
                     Console.Clear();
                 }
@@ -42,7 +42,7 @@ namespace area_perimetro
                     Lista.Add(retangulo);
                     Console.Clear();
                 }
-                else if (figura != 1 || figura != 2)
+                else
                 {
                     Console.WriteLine("Entre com um valor válido, por favor");
                 }
