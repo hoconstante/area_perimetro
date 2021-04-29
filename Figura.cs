@@ -31,6 +31,7 @@ namespace area_perimetro
                     circulo = new(raio);
                     Lista.Add(circulo);
                     Console.Clear();
+                    Console.WriteLine("Círculo criado!");
                 }
                 else if (figura == 2)
                 {
@@ -41,6 +42,7 @@ namespace area_perimetro
                     retangulo = new Retangulo(baase, altura);
                     Lista.Add(retangulo);
                     Console.Clear();
+                    Console.WriteLine("Retângulo criado!");
                 }
                 else
                 {
